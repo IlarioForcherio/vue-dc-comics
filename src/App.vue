@@ -1,7 +1,7 @@
 <template>
   <div id="app">
     <!-- <img alt="Vue logo" src="./assets/logo.png"> -->
-    <HeaderComp id="header" />
+    <HeaderComp id="HeaderComp" />
     <JumbotronComp id="JumbotronComp"  />
     <MainComp id="MainComp" />
     <FooterComp id="FooterComp"  />
@@ -44,6 +44,10 @@ li{
   list-style: none;
 }
 
+body{
+  background-color: black;
+}
+
 #app {
   font-family: Avenir, Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
@@ -51,6 +55,10 @@ li{
   
   color: #2c3e50;
   
+}
+
+#HeaderComp{
+  background-color: white;
 }
 
 

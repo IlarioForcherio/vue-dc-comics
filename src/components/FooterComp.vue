@@ -2,7 +2,7 @@
     <div>
         <div class="footer">
             <div>
-                <h6>SING UP NOW!</h6>
+                <h6><a href="#">SING UP NOW!</a></h6>
             </div>
             <div class="follow">
                 <h5>FOLLOW US</h5>
@@ -27,31 +27,47 @@
 <style lang="scss" scoped>
 
 .footer{
-    padding: 32px;
+   
+    padding: 10px;
     width: 80%;
     margin: 0 auto;
+    margin-bottom: 10px;
     display: flex;
     align-items: center;
     justify-content: space-between;
     color:white;
-    
-}
 
-h6{
-    border: 3px solid rgb(20, 110, 199);
-    padding: 5px;
-}
-h5{
-    color:rgb(20, 110, 199);
-}
 
-.follow{
+    h6{
+        
+        border: 3px solid rgb(20, 110, 199);
+        padding: 10px;
+
+        a{
+            color: white;
+        }
+    }
+
+    .follow{
     display:flex;
     align-items: center;
-}
-ul{
-    display: flex;
-}
 
+      h5{
+     color:rgb(20, 110, 199);
+     }
 
+     ul{
+     display: flex;
+
+     li{
+        padding:0 15px;
+     }
+     img{
+        width: 80%;
+     }
+     }
+
+    }
+
+}
 </style>

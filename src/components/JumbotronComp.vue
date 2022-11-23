@@ -1,7 +1,7 @@
 <template>
     <div class="jumbotron">
         <div class="top">
-          <h2> --> content -->  </h2>
+          <h2> --> Content goes here -->  </h2>
         </div>
          <JumbotronMenu id="JumbotronMenu"  />
     </div>
@@ -24,25 +24,20 @@ import JumbotronMenu from '../components/JumbotronMenu.vue'
 .jumbotron{
     
    background-color: black;
-   
-}
 
-
-.top{
+  .top{
     display: flex;
     align-items: center;
     color:white;
-    width: 80%;
-    margin: 0 auto;
+    width: 70%;
+    margin: 25px auto;
     
-    
+    h2{
+        font-size: 1.3rem;
+    }
+} 
 }
 
 
-
-.bottom li{
-     display:inline;
-     margin: 0 60px;
-}
 
 </style>
