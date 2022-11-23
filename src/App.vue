@@ -3,8 +3,8 @@
     <!-- <img alt="Vue logo" src="./assets/logo.png"> -->
     <HeaderComp id="header" />
     <JumbotronComp id="JumbotronComp"  />
-    <MainComp id="main" />
-    <FooterComp id="footer"  />
+    <MainComp id="MainComp" />
+    <FooterComp id="FooterComp"  />
   </div>
 </template>
 
@@ -28,6 +28,13 @@ export default {
 
 
 <style lang="scss">
+
+*{
+  margin: 0;
+  padding:0;
+  box-sizing: border-box;
+}
+
 a{
   color: black;
   text-decoration: none;
@@ -41,10 +48,25 @@ li{
   font-family: Avenir, Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  text-align: center;
+  
   color: #2c3e50;
   
 }
+
+
+
+#MainComp{
+   background-image: url('../src/assets/img/footer-bg.jpg');
+   background-position: center;
+   background-repeat: no-repeat;
+   background-size: cover;
+}
+
+#FooterComp{
+  background-color: rgb(48, 48, 48);
+}
+
+
 
 
 </style>
