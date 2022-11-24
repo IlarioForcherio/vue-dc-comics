@@ -11,7 +11,7 @@
                    <li><a href="#">Games</a></li>
                    <li><a href="#">Videos</a></li>
                    <li><a href="#">News</a></li>
-                   <h5>SHOP</h5>
+                    <h5>SHOP</h5>
                    <li><a href="#">Shop DC</a></li>
                    <li><a href="#">Shop DC Collections</a></li>
                 </ul>
