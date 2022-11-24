@@ -51,7 +51,7 @@ nav{
     a{
         font-size: 0.6rem;
         font-weight: bold;
-        padding-bottom:45px;
+        padding-bottom:28px;
 
         &:hover{
             color:rgb(11, 130, 250);

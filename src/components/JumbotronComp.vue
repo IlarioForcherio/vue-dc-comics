@@ -131,12 +131,12 @@ import JumbotronCard from './JumbotronCard.vue'
            width: 100%;
            height:290px;
            object-fit: cover;
-           object-position:top ;
+           object-position:top;
           }
        }
        
      .bottom{
-      
+
       display:flex;
       justify-content: center;
       flex-wrap: wrap;

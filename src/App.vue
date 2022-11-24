@@ -25,8 +25,6 @@ export default {
 }
 </script>
 
-
-
 <style lang="scss">
 
 *{
@@ -43,8 +41,6 @@ a{
 li{
   list-style: none;
 }
-
-
 
 #app {
   font-family: Avenir, Helvetica, Arial, sans-serif;
@@ -71,8 +67,5 @@ li{
 #FooterComp{
   background-color: rgb(48, 48, 48);
 }
-
-
-
 
 </style>

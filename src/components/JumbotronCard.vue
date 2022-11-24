@@ -2,7 +2,7 @@
     <div class="card-cnt">
       <div class="card">
        <img :src="dettagliComics.thumb" alt="">
-        <div><h6>{{dettagliComics.series}}</h6></div>
+        <div><h4>{{dettagliComics.series}}</h4></div>
       </div>
     </div>
 </template>
@@ -19,11 +19,13 @@ export default {
 <style lang="scss" scoped>
 
 .card-cnt{
+padding-top:15px;
 width: calc(100% / 6);   
 display: flex;
 }
 
 .card{
+
     padding:10px;
     color: white;
    
