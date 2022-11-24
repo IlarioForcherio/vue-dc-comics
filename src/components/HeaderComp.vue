@@ -1,19 +1,21 @@
 <template>
     <div>
      <nav>
-        <div><img src="../assets/img/dc-logo.png" alt="dc-logo"></div>
+        <div>
+            <img src="../assets/img/dc-logo.png" alt="dc-logo">
+            </div>
         <div>
             <ul>
-                <li> <a href="#">CHARACTERS</a></li>
-                <li> <a href="#">COMICS</a></li>
-                <li> <a href="#">MOVIES</a></li>
-                <li> <a href="#">TV</a></li>
-                <li> <a href="#">GAMES</a></li>
-                <li> <a href="#">COLLECTIBLES</a></li>
-                <li> <a href="#">VIDEOS</a></li>
-                <li> <a href="#">FANS</a></li>
-                <li> <a href="#">NEWS</a></li>
-                <li> <a href="#">SHOP</a></li>
+                <li><a href="#">CHARACTERS</a></li>
+                <li><a href="#">COMICS</a></li>
+                <li><a href="#">MOVIES</a></li>
+                <li><a href="#">TV</a></li>
+                <li><a href="#">GAMES</a></li>
+                <li><a href="#">COLLECTIBLES</a></li>
+                <li><a href="#">VIDEOS</a></li>
+                <li><a href="#">FANS</a></li>
+                <li><a href="#">NEWS</a></li>
+                <li><a href="#">SHOP</a></li>
             </ul>
         </div>
      </nav>
@@ -31,7 +33,7 @@
 nav{
     padding: 10px 0;
     width: 70%;
-    margin: 30px auto;
+    margin: 0 auto;
     display:flex;
     align-items: center;
     justify-content: space-between;
@@ -49,7 +51,7 @@ nav{
     a{
         font-size: 0.6rem;
         font-weight: bold;
-        padding-bottom:20px;
+        padding-bottom:45px;
 
         &:hover{
             color:rgb(11, 130, 250);

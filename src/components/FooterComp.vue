@@ -29,9 +29,9 @@
 .footer{
    
     padding: 10px;
-    width: 80%;
+    width: 70%;
     margin: 0 auto;
-    margin-bottom: 10px;
+    
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -53,17 +53,18 @@
     align-items: center;
 
       h5{
-     color:rgb(20, 110, 199);
+        padding-right:20px;
+        color:rgb(16, 125, 250);
      }
 
      ul{
      display: flex;
 
      li{
-        padding:0 15px;
+        padding:0 0 ;
      }
      img{
-        width: 80%;
+        width: 60%;
      }
      }
 

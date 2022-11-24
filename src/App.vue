@@ -44,9 +44,7 @@ li{
   list-style: none;
 }
 
-body{
-  background-color: black;
-}
+
 
 #app {
   font-family: Avenir, Helvetica, Arial, sans-serif;

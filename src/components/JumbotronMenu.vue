@@ -45,7 +45,7 @@
 
 <script>
     export default {
-        
+        name:'JumbotronMenu'
     }
 </script>
 
@@ -95,13 +95,12 @@
         }
 
         .svg{
-            width: 14%;
+            width: 13%;
             }
 
         span{
             
             padding:0px 10px;
-           
            font-size: 0.5rem; 
         }
        }

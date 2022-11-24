@@ -63,10 +63,6 @@
     justify-content: space-between;
    
 
-   
-
-        
-
       img{
       position: relative;
       z-index:0;
