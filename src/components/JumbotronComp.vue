@@ -4,6 +4,7 @@
         <div class="jumbotron-cnt">
           <div class="top">
             <img src="../assets/img/jumbotron.jpg" alt="">
+            <button class="blue-btn-top">CURRENT SERIES</button>
           </div>
         
           <div class="bottom">
@@ -12,11 +13,9 @@
             :key="index"
             :dettagliComics="element"
                />
+               <button class="blue-btn-btm" >LOAD MORE</button>
           </div>
         </div>
-
-       
-          
     <JumbotronMenu />
     </div>
    
@@ -124,8 +123,8 @@ import JumbotronCard from './JumbotronCard.vue'
         
 
         .top{
-   
-        color:white;
+         position:relative;
+         color:white;
    
     
          img{
@@ -137,11 +136,31 @@ import JumbotronCard from './JumbotronCard.vue'
        }
        
      .bottom{
+      
       display:flex;
+      justify-content: center;
       flex-wrap: wrap;
       width: 70%;
       margin:0 auto;
-      }  
+      padding:10px 0;
+      }
+      
+      .blue-btn-btm, .blue-btn-top{
+        font-weight: bold;
+        border:0px;
+        background-color:rgb(11, 130, 251) ;
+        padding: 10px 40px;
+        color: white;
+        text-align: center;
+      }
+      
+      .blue-btn-top{
+        position:absolute;
+        left:15%;
+        bottom:-5%;
+        font-size: 1.3rem;
+      }
+
 
    }
 
